@@ -2,19 +2,29 @@
     "name": "kanso-app",
     "description": "starting point for kanso app",
     "version": "0.0.1",
-    "load": "lib/app",
-    "modules": "lib",
-    "templates": "templates",
-    "attachments": "static",
-    "base_template": "base.html",
-    "coffee-script": {
-        "modules": ["lib"]
-        },
-    "dependencies": {
-        "modules": null,
-        "settings": null,    
-        "attachments": null,    
-        "properties": null,    
-        "coffee-script-precompiler": null  
-        }
+  "load": "lib/app",
+  "modules": "lib",
+  "attachments": "static",
+  "duality": {
+    "base_template": "base.html"
+  },
+  "dust": {
+    "templates": "templates"
+  },
+  "coffee-script": {
+    "modules": ["lib"]
+  },
+  "dependencies": {
+    "properties": null,
+    "modules": null,
+    "settings": null,
+    "attachments": null,
+    "dust": null,
+    "duality": null,
+    "duality-dust": null,
+    "coffee-script-precompiler": null,
+    "couchtypes": null,
+    "querystring": null,
+    "session": null
+  }
 }
