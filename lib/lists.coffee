@@ -1,2 +1,2 @@
-templates = require("kanso/templates")
-_ = require("kanso/underscore")
+templates = require("duality/templates")
+_ = require("underscore")

@@ -7,4 +7,4 @@ module.exports =
   filters: require("./filters")
   rewrites: require("./rewrites")
   validate_doc_update: require("./validate")
-  events: require("./events")
+#  events: require("./events")

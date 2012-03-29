@@ -1,4 +1,4 @@
-templates = require("kanso/templates")
+templates = require("duality/templates")
 exports.welcome = (doc, req) ->
   title: "It worked!"
   content: templates.render("welcome.html", req, {})
