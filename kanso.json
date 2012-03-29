@@ -6,5 +6,15 @@
     "modules": "lib",
     "templates": "templates",
     "attachments": "static",
-    "base_template": "base.html"
+    "base_template": "base.html",
+    "coffee-script": {
+        "modules": ["lib"]
+        },
+    "dependencies": {
+        "modules": null,
+        "settings": null,    
+        "attachments": null,    
+        "properties": null,    
+        "coffee-script-precompiler": null  
+        }
 }
