@@ -1,5 +1,7 @@
 {
     "name": "kanso-app",
+    "description": "starting point for kanso app",
+    "version": "0.0.1",
     "load": "lib/app",
     "modules": "lib",
     "templates": "templates",
